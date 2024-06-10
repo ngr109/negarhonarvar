@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html   lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  فروشگاه نگارآوا </title>
+    <script type="text/javascript" language="javascript" src="Script1.js">
+        </script>
+    <style>
+           
+       
+          body {
+            font-family: 'Tahoma', sans-serif;
+        }
+
+          .container {
+            width: 90%;
+            margin: auto;
+        }
+
+          header {
+            background: #2ec7d1;
+            color:black;
+            padding: 50px 0;
+            text-align: center;
+            border-radius:100px 75px;
+             
+        }
+
+          nav {
+            background: #59eae5;
+            padding: 15px 0;
+             border-radius:40px 75px;
+              text-align: center;
+              font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif, sans-serif;
+             
+        }
+
+              nav ul {
+                list-style: none;
+            }
+
+                  nav ul li {
+                    display: inline;
+                    margin-right: 10px;
+                }
+
+              nav a {
+                color: black;
+                text-decoration: none;
+            }
+
+          .card {
+            float:right;
+            width: 30%;
+            padding: 10px;
+            box-sizing: border-box;
+            
+        }
+
+              .card img {
+                max-width: 100%;
+            }
+
+              .card h3 {
+                margin-top: 0;
+            }
+
+               .card {
+            float:right;
+            width: 30%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+              .card img {
+                max-width: 100%;
+            }
+
+              .card h3 {
+                margin-top: 0;
+            }
+
+          footer {
+            clear: both;
+            background: #2ec7d1;
+            color: black;
+            text-align: center;
+            padding: 15PX 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>(فروشگاه نگارآوا (دنیای سازهای برند ایرانی و خارجی   </h1>
+            <img src="2.jpg" width="300px" height="200px" alt="logo" />
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="file:///D:/negarava/HTMLPage1.html">HOME</a></li>
+                <li><a href="file:///D:/negarava/HTMLPage2.html">IRANIAN INSTRUMENTS</a></li>
+                <li><a href="file:///D:/negarava/HTMLPage3.html">ABOUT US</a></li>
+                <li><a href="file:///D:/negarava/HTMLPage4.html">GIFT FOR YOU</a></li>
+                <li><a href="file:///D:/negarava/HTMLPage5.html">USER INFORMATION</a></li>
+            </ul>
+        </nav>
+       
+       <div class="card"><br>
+            <img src="26374.jpg" style="float:right" alt="گیتار کلاسیک"><br>
+            <h3>گیتار کلاسیک یاماها مدل C40</h3>
+            <p>قیمت:8/200/000 تومان</p>
+            <button onclick="addToCart(this)"> افزودن به سبد خرید</button> <br>
+         
+           </div>
+        <script>
+function addToCart(button) {
+  alert('محصول به سبد خرید اضافه شد!');
+}
+        </script>
+           <div class="card">
+               <br>           <img src="475687.jpg" style="float:right" alt="گیتار آکوستیک "><br>
+               <h3>گیتار آکوستیک یاماها مدل F370</h3>
+               <p>قیمت:17/200/000 تومان</p>
+               <button onclick="addToCart(this)">افزودن به سبد خرید</button>
+
+               <img src="P125-BK.jpg" style="float:right" alt="پیانو دیجیتال">
+               <h3>پیانو دیجیتال یاماها p125</h3>
+               <p>قیمت:46/000/000 تومان</p>
+               <button onclick="addToCart(this)">افزودن به سبد خرید</button>
+</div>
+        <div class="card"><br>   
+         <img src="1.jpg" style="float:right" alt="پیانو آکوستیک "><br>
+            <h3>Yamaha CX7 پیانو آکوستیک یاماها C7</h3>
+            <p>قیمت:3/500/000/000 تومان</p>
+            <button onclick="addToCart(this)">افزودن به سبد خرید</button>
+            </div>
+        <div class="card">
+            <br>
+            <img src="3.jpg" style="float:right" alt="هنگ درام آرشا"><br>
+            <h3>Yamaha CX7 پیانو آکوستیک یاماها C7</h3>
+            <p>قیمت:6/000/000 تومان</p>
+            <button onclick="addToCart(this)">افزودن به سبد خرید</button>
+        </div>
+            <!--  <div class="card">
+            <img src="P125-BK.jpg" style="float:right" alt="پیانو دیجیتال">
+            <h3>پیانو دیجیتال یاماها p125</h3>
+            <p>قیمت:46/000/000 تومان</p>
+            <button onclick="addToCart(this)">افزودن به سبد خرید</button>
+            </DIV>-->
+            <!-- Repeat for other products -->
+
+            <footer>
+                <p> ممنون از همراهی شما  </p><br>
+                <p>فروشگاه نگارآوا</p>
+            </footer>
+        </div>
+
+   
+
+</body>
+</html>
